@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/num"
+        android:id="@+id/tv_num"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="0"
@@ -24,12 +24,12 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btn_clear"
+            android:id="@+id/btnClear"
             style="@style/button_sign_style"
             android:text="C" />
 
         <Button
-            android:id="@+id/btn_sign"
+            android:id="@+id/btnPlusMinus"
             style="@style/button_sign_style"
             android:text="+/-" />
 
