@@ -26,7 +26,15 @@
         <item name="android:textColor">@color/black</item>
     </style>
 
+    <style name="button_number_style_land" parent="button_number_style">
+        <item name="android:textSize">15sp</item>
+    </style>
+
     <style name="button_sign_style" parent="button_number_style">
         <item name="android:background">@drawable/button_sign</item>
+    </style>
+    <style name="button_sign_style_land" parent="button_number_style">
+        <item name="android:background">@drawable/button_sign</item>
+        <item name="android:textSize">15sp</item>
     </style>
 </resources>
